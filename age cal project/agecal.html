@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Age  Calculator</title>
+	<link rel="stylesheet" href="agecal.css">
+	<script type="text/javascript" src="agecal.js"></script>
+  </head>
+ 
+<body>
+	<h1>Age Calculator</h1>
+
+	<div class="input">	 
+		 
+	 	<form onsubmit="ageFunction; return false">
+	 		<!-- <div> -->
+			<label for="Age"></label>
+			<input type="number" id="age" placeholder="Input Age" required>
+     	    <input type="submit" id="submit" onclick="ageFunction()">
+			<!-- </div> -->
+	      <input type="reset"  class="reset">
+
+				</form>
+	      </div>
+
+      	<h2 style="text-align: center;">YOU <sub> Have</sub> Elaps</h2>
+ 
+	<div class="input">
+		<form>
+			<!-- <div id="D" class="top-input"> -->
+				 <div class="row">
+					<div>
+					<input type="number" id="month" placeholder="months" disabled=""> 
+				</div>
+			    <div>
+					<label for="month">Month</label>
+			    </div>
+
+			    </div> 
+		    <div class="row">
+            	 <div>
+				    <input type="number" id="week" placeholder="weeks" disabled="">
+				</div>
+      	         <div>
+				    <label for="weeks">Week</label>
+		        </div>
+		        </div>
+            <div class="row">
+            	<div>
+				   <input type="number" id="day" placeholder="Days" disabled="">
+				</div>
+                <div>
+                   	<label for="Days">Days</label>
+                </div>
+                </div>  
+			    
+
+                <div class="row">		
+				<div>
+				 	<input type="number" id="second" placeholder="seconds" disabled="">
+			    </div>
+			    <div>
+					<label for="seconds">Seconds</label>
+			    </div>
+                </div>
+               
+            <div class="row">
+                <div>
+					<input type="number" id="minute" placeholder="Minutes" disabled="">
+				</div>
+                <div>
+                	<label class="min" for="minute">Minutes</label>
+                </div>
+                    
+                </div>
+
+            <div class="row"> 
+            	<div>
+				    <input type="number" id="hour" placeholder="Hours" disabled="">
+			   	</div>
+              	<div>
+              		<label class="hours" for="Hours">Hours</label>
+            	</div>
+                </div>
+                   
+
+			<!-- </div> -->
+
+	    	<!-- <div class="S" class="bottom-input"> -->
+			<!-- </div> -->
+		</form>
+	</div>
+
+</body>
+</html>
